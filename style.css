@@ -10,13 +10,24 @@ body {
     align-items: center;
     min-height: 100vh;
     background: whitesmoke;
-}
-h2 {
     text-align: center;
+}
+
+h2 {
     font-size: 3em;
     color: #e94d58;
     margin: 15px 0;
 }
+
+.wrapper {
+    text-align: center;
+}
+
+.gif {
+    display: block;
+    margin: 0 auto;
+}
+
 .btn-group {
     width: 100%;
     height: 40px;
@@ -24,6 +35,7 @@ h2 {
     justify-content: center;
     margin-top: 50px;
 }
+
 button {
     position: absolute;
     width: 150px;
@@ -37,10 +49,12 @@ button {
     border: 2px solid #e94d58;
     font-size: 1.2em;
 }
+
 button:nth-child(1) {
     margin-left: -200px;
     background: #e94d58;
 }
+
 button:nth-child(2) {
     margin-right: -200px;
     background: white;
